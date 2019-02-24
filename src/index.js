@@ -9,7 +9,7 @@ import axios from 'axios';
 
 // Defaults
 
-// axios.defaults.baseURL = 'https://jsonplaceholder.typicode.com';
+axios.defaults.baseURL = 'https://jsonplaceholder.typicode.com';
 
 // Interceptors
 
