@@ -10,6 +10,11 @@ class NewPost extends Component {
         author: 'Max'
     }
 
+    componentDidMount() {
+    console.log("NewPOst Props",this.props);
+
+    }
+
     postPostDataHandler = () => {
         axios.post('/posts', {
             title: this.state.title,
